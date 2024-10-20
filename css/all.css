@@ -1,0 +1,173 @@
+/* wrapper styles */
+#wrapper {
+	width: 952px;
+	margin: 0 auto;
+	padding: 10px 4px;
+}
+/* header styles */
+#header {
+	margin: 0 0 20px;
+	overflow: hidden;
+}
+/* logo style */
+.logo {
+	float: left;
+	width: 106px;
+	height:51px;
+}
+/* navigation style*/
+#nav {
+	float:right;
+	margin:0;
+	padding:28px 0 0;
+	list-style:none;
+	font:20px/24px "Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+#nav li {
+	float:left;
+	margin-left:20px;
+}
+#nav a:hover {
+	text-decoration:blink;
+	color:#0481c2;
+}
+/* main block style */
+#main { overflow:	hidden; }
+#sidebar {
+	float:left;
+	width:230px;
+	border-top:5px solid #0481c2;
+	padding:21px 0;
+}
+.search-form { margin: 0 0 25px; }
+.search-form .input-wrap {
+	overflow:hidden;
+	width:226px;
+	border:	 1px solid #515151;
+}
+.search-form input[type="text"] {
+	float:left;
+	width: 187px;
+	padding:8px 6px;
+	font:12px/16px Arial, Helvetica, sans-serif;
+	color:#d2d1d1;
+	border:none;
+	background:none;
+	margin:0;
+}
+.search-form input[type="submit"] {
+	float:right;
+	width:19px;
+	height:18px;
+	border:none;
+	background:	url(../images/sprite.png) no-repeat -132px -3px;
+	/*text replacement technique*/
+	text-indent:-9999px;
+	overflow:hidden;
+	margin:4px 8px 0 0;
+	cursor:pointer;
+}
+#sidebar h1 {
+	margin:0 0 20px;
+	font: 	24px/28px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#0481c2;
+	border-bottom:1px solid #878787;
+	padding:0 0 9px;
+}
+#sidebar .news {
+	margin:0 0 20px;
+	border-bottom:1px solid #878787;
+	color:#404040;
+	padding:0 0 25px;
+}
+#sidebar .news h2,
+.column h3 {
+	margin:0 0 15px;
+	font:14px/18px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color:#0481c2;
+}
+.three-columns .column h3 { font-weight:bold; }
+#sidebar .news p,
+.three-columns .column p { margin:0 0 15px; }
+#sidebar .news a,
+.three-columns .column a { color:#878787; }
+#content {
+	float:right;
+	width:710px;
+	border-top:5px solid #0481c2;
+	padding:21px 0;
+	margin-left:12px;
+}
+.banner {
+	margin:0 0 25px;
+	position:relative;
+}
+.banner .description {
+	width:172px;
+	background:url(../images/bg-overlay.png);
+	padding:70px 16px 80px;
+	position:absolute;
+	right:0;
+	top:0;
+	color:#fff; /*shorthand color*/
+}
+.banner h2 {
+	font:18px/22px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:0 0 20px;
+}
+.banner p { margin: 0 0 5px; }
+.three-columns {
+	width:710px;
+	overflow:hidden;
+}
+.three-columns .holder { width:740px; /*space expansion method*/ }
+.three-columns .column {
+	width:230px;
+	display:inline-block; /*alternative float:left*/
+	vertical-align:top;
+	margin:0 0 0 10px;
+}
+.three-columns .column:first-child { margin-left:0; }
+.three-columns .column img { margin:0 0 20px; }
+/* footer block style */
+#footer { overflow:hidden; }
+.social-networks {
+	margin:0;
+	padding:0;
+	list-style:none;
+	width:230px;
+	float:left;
+	border-top:5px solid #0481c2;
+	padding:10px 0;
+}
+.social-networks li {
+	float:left;
+	margin:0 5px 0 0;
+}
+.social-networks a {
+	text-indent:-9999px;
+	overflow:hidden;
+	display:block;
+	background:url(../images/sprite.png) no-repeat;
+	width:22px;
+	height:22px;
+}
+.social-networks a.facebook {
+	background-position:0 0;
+	width:23px;
+	height:23px;
+}
+.social-networks a.twitter { background-position:-28px 0; }
+.social-networks a.linkedin { background-position:-54px 0; }
+.social-networks a.myspace { background-position:-80px 0; }
+.social-networks a.rss { background-position:-106px 0; }
+.copyright-block {
+	border-top:5px solid #0481c2;
+	padding:10px 0;
+	float:right;
+	width:710px;
+	margin-left:12px;
+	text-align:right;
+}
+.copyright-block p { margin:0; }
+
